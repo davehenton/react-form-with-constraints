@@ -9,4 +9,4 @@ export interface Props extends TextInputProperties {
 export declare class TextInputComponent extends React.Component<Props> {}
 type Constructor<T> = new(...args: any[]) => T;
 export const TextInputBase = _TextInput as any as Constructor<NativeMethodsMixinStatic> & Constructor<TimerMixin> & typeof TextInputComponent;
-export declare class TextInput extends TextInputBase {}
+export class TextInput extends TextInputBase {}
